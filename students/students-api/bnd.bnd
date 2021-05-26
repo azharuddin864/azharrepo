@@ -1,0 +1,11 @@
+Bundle-Name: students-api
+Bundle-SymbolicName: com.hp.inter.api
+Bundle-Version: 1.0-SNAPSHOT
+Export-Package:\
+	com.hp.inter.exception,\
+	com.hp.inter.model,\
+	com.hp.inter.service,\
+	com.hp.inter.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../students-service/service.xml
+Import-Package: *; version="0";resolution:=optional

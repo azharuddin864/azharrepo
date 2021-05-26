@@ -1,0 +1,11 @@
+Bundle-Name: students-service
+Bundle-SymbolicName: com.hp.inter.service
+Bundle-Version: 1.0-SNAPSHOT
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit
+-includeresource: META-INF/service.xml=service.xml
+-liferay-service-xml: META-INF/service.xml
+-plugin.metatype: com.liferay.ant.bnd.metatype.MetatypePlugin
+-plugin.service: com.liferay.ant.bnd.service.ServiceAnalyzerPlugin
+Import-Package: *; version="0";resolution:=optional

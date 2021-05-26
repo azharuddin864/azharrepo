@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.hp.inter.model.Student">
+		<field name="uuid" type="String" />
+		<field name="studentId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="studentName" type="String" />
+		<field name="collegeName" type="String" />
+		<field name="specialization" type="String" />
+		<field name="studentGpa" type="double" />
+	</model>
+</model-hints>
